@@ -59,8 +59,6 @@ void setup() {
   display.flipScreenVertically();
   // Initialise the star field with random stars
   for (int i = 0; i < starCount; i++) {
-    //stars[i][0] = -25 + static_cast<int>(rand() % (25 - -25 + 1)); 
-    //stars[i][1] = -25 + static_cast<int>(rand() % (25 - -25 + 1)); 
     stars[i][0] = getRandom(-25, 25);
     stars[i][1] = getRandom(-25, 25);
     stars[i][2] = getRandom(0, maxDepth);
