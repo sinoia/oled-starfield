@@ -56,6 +56,7 @@ void drawStars() {
 
 void setup() {
   display.init();
+  display.flipScreenVertically();
   // Initialise the star field with random stars
   for (int i = 0; i < starCount; i++) {
     //stars[i][0] = -25 + static_cast<int>(rand() % (25 - -25 + 1)); 
