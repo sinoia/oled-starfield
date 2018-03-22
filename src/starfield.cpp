@@ -32,8 +32,6 @@ void drawStars() {
        // if the star has moved past the screen (z < 0) reposition it far away
        // with random x and y positions.
        if (stars[i][2] <= 0) {
-           //stars[i][0] = -25 + static_cast<int>(rand() % (25 - -25 + 1));
-           //stars[i][1] = -25 + static_cast<int>(rand() % (25 - -25 + 1));
            stars[i][0] = getRandom(-25, 25);
            stars[i][1] = getRandom(-25, 25);
            stars[i][2] = maxDepth;
