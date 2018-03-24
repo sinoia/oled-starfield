@@ -7,6 +7,7 @@
 #include <Wire.h>
 #include "SSD1306.h"
 
+
 // Initialize the oled display at address 0x3c, with SDA/SCL on pins 4/5
 SSD1306  display(GEOMETRY_128_64, 0x3c, 4, 5);
 
