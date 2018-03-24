@@ -19,7 +19,7 @@ This is what the cube looks like:
 
 ![OLEDiESP](media/DSC01904.JPG)
 
-This is really neat litle cube shaped board which includes a microSD card reader, 
+This is really neat little cube shaped board which includes a microSD card reader, 
 the WiFi enabled ESP8266 chip and a 0.96" blue OLED display. 
 
 In the picture below you can see the microSD protruding from the slot. I like this SD slot because it
@@ -43,5 +43,5 @@ when the board is in programming mode.
 There are many other features on this board to you can see the [full details at Hayri's shop.](https://www.tindie.com/products/PhoenixCNC/olediesp-a-tiny-cube-with-esp07--esp12--oled-iot/)
  
 This second picture also shows another feature that I really like - the second
-micro USB port at the back of the cube. This direction of this port makes it a very
-tidy place to power the cube. 
+micro USB port at the back of the cube. The direction of this port makes it a very
+tidy place to run the USB cable power to the cube. 
